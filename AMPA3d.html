@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - STL</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="ampa_main.css">
+	</head>
+	<body>
+		
+        <div id="conrolpanal">
+			<a target="_blank" rel="noopener">toothsi.in</a> -
+			Plan road map for patient Brito
+		<div class="left_box">
+		<div>
+			<label>
+				<input type="checkbox" class="checkbox" onclick="updateCheckboxes(this)">
+			Upper
+			  </label>
+			
+			  <label>
+				<input type="checkbox" class="checkbox" onclick="updateCheckboxes(this)">
+			Lower
+			  </label>
+			
+			  <label>
+				<input type="checkbox" class="checkbox" onclick="updateCheckboxes(this)">
+			Both
+			  </label>
+		</div>	
+		<div>
+			<button class="left">left</button>
+		    <button class="right">right</button>
+		</div>
+		<div>
+			<button class="buttom">buttom</button>	 
+	        <button class="top">top</button>
+		</div>
+        <div>
+			<button class="front">front</button>			
+			<button class="back">back</button>
+		</div>
+	    <div class="slider"><input type="range" min="0" max="6" value="0" oninput="rangeValue.innerText = 'Month: ' + this.value"><p id="rangeValue">
+				Month: 0</p></div></div>	
+		</div>
+		</div> 	
+		</div>
+        <script type="module" src="Ampascripts.js"></script>
+	</body>
+</html>
